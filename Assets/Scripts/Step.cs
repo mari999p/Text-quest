@@ -4,10 +4,10 @@ public class Step : MonoBehaviour
 {
     #region Variables
 
-    [TextArea(5, 10)]
-    [SerializeField] private string _answers;
-    [TextArea(3, 10)]
-    [SerializeField] private string _description;
+    [TextArea(5, 10)] [SerializeField] private string _answers;
+
+    [TextArea(3, 10)] [SerializeField] private string _description;
+
     [SerializeField] private Step[] _nexSteps;
     [SerializeField] private string _location;
     [SerializeField] private Sprite _locationImage;
